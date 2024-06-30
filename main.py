@@ -245,26 +245,26 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 	except: pass
 
 
-USAGE = """**FOR PUBLIC CHATS**
+USAGE = """**အများသူငှာ စကားပြောခန်းများအတွက်**
 
-**__just send post/s link__**
+**__ပိုစ်/လင့်ခ်ကိုသာ ပေးပိုပါ။__**
 
-**FOR PRIVATE CHATS**
+**သီးသန့်ချတ်များအတွက်**
 
-**__first send invite link of the chat (unnecessary if the account of string session already member of the chat)
-then send post/s link__**
+**__chat ၏ ဖိတ်ကြားချက်လင့်ခ်ကို ဦးစွာ ပေးပိုပါ (မလိုအပ်ဘဲ string session ၏အကောင့်သည် ချတ်၏အဖွဲဝင်ဖြစ်နေပြီဖြစ်လျှင်)
+ပြီးရင် post/s link ပိုပေးပါ။__**
 
-**FOR BOT CHATS**
+**BOT chats အတွက်**
 
-**__send link with** '/b/', **bot's username and message id, you might want to install some unofficial client to get the id like below__**
+**__'/b/'၊ bot ၏အသုံးပြုသူအမည်နှင့် မက်ဆေ့ဂျ်အိုင်ဒီ ဖြင့် လင့်ခ်ပေးပိုပါ ၊ အောက်ပါကဲ့သို id ကိုရယူရန် တရားဝင်မဟုတ်သော client အချိုကို သင်ထည့်သွင်းလိုပေမည်။__**
 
 ```
 https://t.me/b/botusername/4321
 ```
 
-**MULTI POSTS**
+**ပိုစ်များစွာ**
 
-**__send public/private posts link as explained above with formate "from - to" to send multiple messages like below__**
+**__အောက်ဖော်ပြပါကဲ့သို စာမျိုးစုံကို ပေးပိုရန် အထက်ဖော်ပြပါအတိုင်း အများသူငှာ/ပုဂ္ဂလိက ပိုစ်လင့်ခ်များကို ပေးပိုရန်၊__**
 
 ```
 https://t.me/xxxx/1001-1010
@@ -272,7 +272,7 @@ https://t.me/xxxx/1001-1010
 https://t.me/c/xxxx/101 - 120
 ```
 
-**__note that space in between doesn't matter__**
+**__ကြားထဲမှာ နေရာလွတ်က အရေးမကြီးဘူးဆိုတာ သတိပြုပါ။__**
 """
 
 
