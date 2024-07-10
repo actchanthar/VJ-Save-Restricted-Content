@@ -47,7 +47,7 @@ async def main(bot: Client, message: Message):
         await message.reply(strings['already_logged_in'])
         return 
     user_id = int(message.from_user.id)
-    phone_number_msg = await bot.ask(chat_id=user_id, text="<b>Please send your phone number which includes country code</b>\n<b>Example:</b> <code>+13124562345, +9171828181889</code>")
+    phone_number_msg = await bot.ask(chat_id=user_id, text="<b>Please send your phone number which includes country code</b>\n<b>Example:</b> <code>+95945555555 or +95968888</code>")
     if phone_number_msg.text=='/cancel':
         return await phone_number_msg.reply('<b>process cancelled !</b>')
     phone_number = phone_number_msg.text
